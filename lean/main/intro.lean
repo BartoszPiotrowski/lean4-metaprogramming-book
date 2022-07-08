@@ -29,12 +29,12 @@ dependency structure is as follows:
 * "`MetaM`" builds on top of "Expressions"
 
 After the chapter on tactics, you find a cheat-sheet containing a wrap-up of key
-concepts and functions. And after that, There are some chapters with extra
+concepts and functions. And after that, there are some chapters with extra
 content, showing other applications of metaprogramming in Lean 4.
 
 The rest of this chapter is a gentle introduction for what metaprogramming is,
 offering some small examples to serve as appetizers for what the book shall
-cover. 
+cover.
 
 ## What does it mean to be in meta?
 
@@ -167,7 +167,7 @@ macro_rules
 -- Arith.mul (Arith.symbol "x") (Arith.symbol "y")
 
 #check ⟪ "x" + "y" ⟫
--- Arith.add (Arith.symbol "x") (Arith.symbol "y") 
+-- Arith.add (Arith.symbol "x") (Arith.symbol "y")
 
 #check ⟪ "x" + 20 ⟫
 -- Arith.add (Arith.symbol "x") (Arith.int 20)
